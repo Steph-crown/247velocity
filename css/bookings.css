@@ -1,0 +1,23 @@
+section.all-games__banner {
+    min-height: 90vh;
+}
+
+img.banner {
+    width: 100%;
+    height: 30em;
+    margin: 5.5em 0;
+    object-fit: cover;
+}
+.sm {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    section.bg {
+        display: none;
+    }
+    img.sm {
+        display: block;
+        height: 16em;
+    }
+}
