@@ -24,13 +24,13 @@ section.all-games__banner i.fa-angle-down {
 
 @keyframes down-up {
     0% {
-        bottom: 1em;
+        bottom: 2.2em;
     }
     50% {
-        bottom: 1.3em;
+        bottom: 2.5em;
     }
     100% {
-        bottom: 1em;
+        bottom: 2.2em;
     }
 }
 img {
