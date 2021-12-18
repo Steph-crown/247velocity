@@ -1,0 +1,150 @@
+footer {
+    width: 100%;
+    background-image: url(./../assets/images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    min-height: 3px;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: white;
+}
+
+div.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+
+div.footer-flex div {
+    display: block;
+    width: 31%;
+}
+
+div.footer-flex a {
+    display: block;
+}
+
+footer h6 {
+    margin-bottom: 1.5em;
+}
+footer a,
+footer p {
+    margin-top: 2em;
+    transition: 1s ease;
+    font-size: 14px;
+}
+
+footer a:hover {
+    padding-left: 2em;
+}
+footer img {
+    height: 340px;
+}
+footer h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+aside.socials {
+    display: flex;
+    width: 100%;
+}
+
+aside.socials img {
+    margin-right: 1.5em;
+    height: 1.5em;
+}
+
+aside.sm {
+    display: none;
+}
+
+section.final {
+    background-color: #18191f;
+    color: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+aside.bg {
+    width: 200px;
+    justify-content: flex-end;
+}
+
+aside.bg img {
+    margin-left: 1.5em;
+    margin-right: 0em;
+}
+
+section.final p {
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    footer img {
+        height: 200px;
+        margin-bottom: 3em;
+    }
+    div.footer-flex {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+    }
+    footer div.footer-flex img {
+        height: 160px;
+        margin-bottom: 3em;
+    }
+    div.footer-flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 640px) {
+    section.final {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    section.final p {
+        font-size: 12px;
+    }
+
+    aside.bg {
+        display: none;
+    }
+    aside.sm {
+        display: flex;
+    }
+    div.footer-flex div {
+        width: 48%;
+        margin-bottom: 3em;
+    }
+
+    div.footer-flex div:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    footer img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 350px) {
+    div.footer-flex div {
+        width: 100%;
+    }
+}

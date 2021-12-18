@@ -1,0 +1,25 @@
+li.splide__slide img {
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+
+li.splide__slide {
+    display: flex;
+    justify-content: center;
+    min-width: 2px;
+}
+
+/* li.splide__slide img {
+    margin: 0 2em;
+} */
+
+@media (max-width: 400px) {
+    li.splide__slide img {
+        width: 95%;
+    }
+}
+
+div.splide button {
+    display: none;
+}
