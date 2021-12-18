@@ -110,3 +110,138 @@ div.input-group img {
         margin-right: 1em;
     }
 }
+
+/* ALL GAMES BUTTONS */
+div.buttons {
+    display: flex;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 56em;
+    max-width: 100%;
+    margin: 3em auto;
+}
+
+div.buttons button {
+    width: 8em;
+    height: 2.5em;
+    font-size: 16px;
+    background-color: #efeff4;
+    transition: background-color 1s;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+div.buttons button:hover {
+    background-color: #eb4d4d35;
+}
+div.buttons button.selected {
+    background-color: #eb4d4d;
+    color: white;
+}
+
+@media (max-width: 640px) {
+    div.buttons {
+        margin: 1.5em auto;
+    }
+    div.buttons button {
+        font-size: 14px;
+        width: 5.8em;
+        height: 2.7em;
+    }
+}
+
+div.game-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.image-card {
+    width: 20em;
+    max-width: 100%;
+    margin: 1.5em 1.6em;
+}
+div.image-card img {
+    height: 26em;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    div.image-card {
+        width: 18em;
+        max-width: 100%;
+        margin: 1.4em 1.6em;
+    }
+    div.image-card img {
+        height: 24em;
+    }
+}
+
+@media (max-width: 850px) {
+    div.image-card {
+        width: 15em;
+        max-width: 100%;
+        margin: 1.2em 1.6em;
+    }
+    div.image-card img {
+        height: 22em;
+    }
+}
+
+@media (max-width: 720px) {
+    div.image-card {
+        width: 100%;
+        margin: 1.2em 0em;
+    }
+    div.image-card img {
+        height: 22em;
+    }
+}
+
+div.image-card div.flex {
+    display: flex;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: center;
+    margin: 1.2em 0 0.6em 0;
+}
+
+div.image-card div.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+b {
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+div.image-card > p {
+    color: #4f4f4f;
+    line-height: 28px;
+}
+
+div.image-card div.flex p {
+    font-weight: 600;
+    color: #353535;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+div.image-card p.sign {
+    background-color: #c4c4c4;
+    color: black;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+p.num {
+    margin: 0 0.5em;
+}
