@@ -1,0 +1,83 @@
+section.all-games__banner {
+    background-image: url(./../assets/images/background-fire.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+section.all-games__banner i.fa-angle-down {
+    position: absolute;
+    display: block;
+    bottom: 1em;
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    color: white;
+    font-size: 2.2em;
+    animation-name: down-up;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down-up {
+    0% {
+        bottom: 1em;
+    }
+    50% {
+        bottom: 1.3em;
+    }
+    100% {
+        bottom: 1em;
+    }
+}
+img {
+    height: 2.2em;
+}
+
+div.banner {
+    padding: 160px 0;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 98px;
+}
+
+div.banner p {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+div.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    max-width: 90%;
+    margin: 1.5em auto;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+div.input-group input {
+    background: transparent;
+    outline: none;
+    border: none;
+    flex: 1;
+    color: #777;
+    caret-color: var(--red);
+    font-size: 16px;
+}
+
+div.input-group img {
+    height: 2em;
+    margin-right: 2em;
+}
