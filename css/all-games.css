@@ -65,6 +65,8 @@ div.input-group {
     background-color: white;
     padding: 18px;
     border-radius: 10px;
+    min-height: 2px;
+    align-items: center;
 }
 
 div.input-group input {
@@ -92,6 +94,9 @@ div.input-group img {
     div.input-group {
         padding: 12px;
     }
+    div.input-group img {
+        height: 1.5em;
+    }
 }
 
 @media (max-width: 600px) {
@@ -102,5 +107,9 @@ div.input-group img {
 
     div.input-group {
         padding: 10px;
+    }
+    div.input-group img {
+        height: 1.2em;
+        margin-right: 1em;
     }
 }
