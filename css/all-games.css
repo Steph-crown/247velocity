@@ -75,9 +75,32 @@ div.input-group input {
     color: #777;
     caret-color: var(--red);
     font-size: 16px;
+    width: 100%;
 }
 
 div.input-group img {
     height: 2em;
     margin-right: 2em;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    div.input-group {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+        line-height: 50px;
+    }
+
+    div.input-group {
+        padding: 10px;
+    }
 }
