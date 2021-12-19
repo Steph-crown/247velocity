@@ -27,6 +27,7 @@
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/dropdown.css">
 
 </head>
 
@@ -37,14 +38,23 @@
                 <a href="/index.html" class="current">Home</a>
                 <a href="/bookings.html">Bookings</a>
                 <a href="/all-games.html">All Games</a>
-                <a href="/faq.html">FAQ</a>
-                <a href="/contact.html">Contact</a>
+                <a href="/contact.html#faq">FAQ</a>
+                <a href="/contact.html#contact">Contact</a>
             </nav>
             <div class="dropdown">
                 <div class="menu-icon">
                     <div></div>
                     <div></div>
                     <div></div>
+                </div>
+                <div class="dropdown-content">
+                    <p class="times">&times;</p>
+                    <a href="/index.html" class="current">Home</a>
+                    <a href="/bookings.html">Bookings</a>
+                    <a href="/all-games.html">All Games</a>
+                    <a href="/contact.html#faq">FAQ</a>
+                    <a href="/contact.html#contact">Contact</a>
+
                 </div>
             </div>
         </header>
@@ -180,6 +190,8 @@
     <script>
         AOS.init({ duration: 1000, });
     </script>
+    <script src="./js/dropdown.js"></script>
+
 </body>
 
 </html>

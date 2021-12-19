@@ -26,3 +26,7 @@ footer {
     width: 100%;
     padding: 12px calc(0.08 * 100vw);
 }
+
+html {
+    scroll-behavior: smooth;
+}

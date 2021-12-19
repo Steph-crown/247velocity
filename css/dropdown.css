@@ -1,0 +1,33 @@
+div.dropdown-content {
+    background-color: var(--red);
+    color: white;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 100vw;
+    top: 0;
+    z-index: 88;
+    padding: 4em 2em;
+    display: block;
+    transition: left 1s;
+}
+
+p.times {
+    position: absolute;
+    top: 0.7em;
+    right: 1em;
+    font-size: 2em;
+}
+
+div.dropdown-content a {
+    display: block;
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+div.dropdown-content a:hover,
+div.dropdown-content a.current {
+    background-color: white;
+    color: var(--red);
+}
