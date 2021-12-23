@@ -101,18 +101,21 @@ section.contact div.left > img {
     }
 }
 
-div.right div.input-box {
+div.right div.input-box,
+div.left div.input-box {
     width: 100%;
     margin-bottom: 2em;
 }
 
-div.right div.input-box small {
+div.right div.input-box small,
+div.left div.input-box small {
     display: block;
     font-size: 12px;
     color: #4f4f4f;
 }
 
 div.right input,
+div.left input,
 textarea,
 button {
     width: 100%;

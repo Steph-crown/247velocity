@@ -10,6 +10,7 @@ div.dropdown-content {
     padding: 4em 2em;
     display: block;
     transition: left 1s;
+    /* display: none; */
 }
 
 p.times {

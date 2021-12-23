@@ -10,4 +10,7 @@ menuIcon.addEventListener("click", (e) => {
 
 closeIcon.addEventListener("click", (e) => {
     dropdownContent.style.left = "100vw";
+    // setTimeout(() => {
+    //     dropdownContent.style.display = "none";
+    // }, 1000);
 });

@@ -21,3 +21,57 @@ img.banner {
         height: 16em;
     }
 }
+
+div.button-flex {
+    display: flex;
+    justify-content: center;
+    min-height: 2px;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+}
+
+button.outline {
+    border: 1px solid var(--red);
+    color: var(--red);
+    margin-right: 5em;
+}
+
+button.filled {
+    background: var(--red);
+    color: white;
+}
+
+@media (max-width: 500px) {
+    div.button-flex {
+        flex-direction: column;
+        padding: 12px calc(0.08 * 100vw);
+    }
+
+    button.outline {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+section#faq {
+    width: 966px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}

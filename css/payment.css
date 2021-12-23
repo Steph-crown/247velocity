@@ -1,0 +1,72 @@
+div.payment h4 {
+    font-size: 2em;
+    color: #4f4f4f;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    font-weight: 600;
+    padding-bottom: 56px;
+}
+
+div.payment {
+    box-shadow: -7px 3px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.4em 2em;
+}
+
+div.pay-flex {
+    display: flex;
+    justify-content: flex-end;
+    padding: 32px 0;
+    min-height: 2px;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.pay-flex > div {
+    width: 60%;
+}
+
+div.pay-flex > div > p {
+    font-size: 1.2em;
+    color: #4f4f4f;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+div.pay-flex > div b {
+    font-size: 1em;
+    margin-top: 4px;
+    display: block;
+}
+@media (max-width: 730px) {
+    div.payment {
+        box-shadow: none;
+        padding: 1.4em 0em;
+    }
+
+    div.payment h4 {
+        font-size: 1.4em;
+        padding-bottom: 32px;
+    }
+
+    div.pay-flex > div {
+        width: 100%;
+    }
+
+    div.pay-flex > div p,
+    b {
+        font-size: 1em;
+    }
+}
+
+div.flex-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.flex-group input {
+    width: 60%;
+}
+
+div.flex-group button {
+    width: 35%;
+}
